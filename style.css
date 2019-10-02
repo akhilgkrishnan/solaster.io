@@ -199,7 +199,7 @@ ol {
     font-size: 24px;
     right: 30px;
     width: 50px;
-    background-color: #fb397d;
+    background-color: #4cbb17;
     color: #fff;
     text-align: center;
     height: 50px;
@@ -233,7 +233,7 @@ p {
 
 .section-heading > h2 {
     font-weight: 300;
-    color: #5b32b4;
+    color: #0c0b0c;
     font-size: 48px;
     margin: 0;
 }
@@ -247,7 +247,7 @@ p {
 .line-shape {
     width: 80px;
     height: 2px;
-    background-color: #fb397d;
+    background-color: #4cbb17;
     margin-top: 15px;
 }
 
@@ -285,7 +285,7 @@ p {
     -webkit-animation: 2000ms linear 0s normal none infinite running colorlib-load;
     animation: 2000ms linear 0s normal none infinite running colorlib-load;
     background: transparent none repeat scroll 0 0;
-    border-color: #dddddd #dddddd #fb397d;
+    border-color: #dddddd #dddddd #4cbb17;
     border-radius: 50%;
     border-style: solid;
     border-width: 2px;
@@ -367,7 +367,7 @@ p {
 
 
 .menu_area nav ul li > a:hover {
-    color: #fb397d;
+    color: #4cbb17;
 }
 
 .sing-up-button {
@@ -387,7 +387,7 @@ p {
 }
 
 .sing-up-button > a:hover {
-    background: #fb397d;
+    background: #4cbb17;
     color: #fff;
     border-color: transparent;
     -webkit-transition-duration: 500ms;
@@ -398,7 +398,7 @@ p {
 /* stcicky css */
 
 .header_area.sticky {
-    background-color: #884bdf;
+    background-color: #0c0b0c;
     -webkit-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     height: 70px;
@@ -418,18 +418,20 @@ p {
     padding: 0;
 }
 
-
+ 
 /* --------------------------
 :: 3.0 Wellcome Area CSS
 -------------------------- */
 
 .wellcome_area {
-    background-image: url(img/bg-img/welcome-bg1.jpg);
-    height: 900px;
+    background-image: url(img/bg-img/akhil.jpg);
+    height: 700px;
     position: relative;
     z-index: 1;
     background-position: bottom center;
     background-size: cover;
+    opacity: 1;
+    
 }
 
 .wellcome_area:after {
@@ -451,7 +453,7 @@ p {
     z-index: 9;
 }
 
-.welcome-thumb img {
+.welcome-thumb img {#4cbb17
     height: auto;
     width: 100%;
 }
@@ -465,7 +467,7 @@ p {
 }
 
 .get-start-area .email {
-    background: #9572e8;
+    background: #0c0b0c;
     height: 50px;
     max-width: 260px;
     border: none;
@@ -500,7 +502,7 @@ p {
 }
 
 .get-start-area .submit {
-    background-color: #fb397d;
+    background-color: #4cbb17;
     color: #fff;
     font-weight: 500;
     display: inline-block;
@@ -514,7 +516,7 @@ p {
 }
 
 .get-start-area .submit:hover {
-    background: #6f52e5;
+    background: #0c0b0c;
     color: #fff;
     -webkit-transition-duration: 500ms;
     -o-transition-duration: 500ms;
@@ -547,12 +549,12 @@ p {
 
 .single-icon > i {
     font-size: 36px;
-    color: #fb397d;
+    color: #4cbb17;
 }
 
 .single-special > h4 {
     font-size: 22px;
-    color: #5b32b4;
+    color: #0c0b0c;
 }
 
 .single-icon {
@@ -561,7 +563,7 @@ p {
 
 .single-special > h4 {
     font-size: 22px;
-    color: #5b32b4;
+    color: #0c0b0c;
     margin-bottom: 15px;
 }
 
@@ -576,7 +578,7 @@ p {
 }
 
 .special_description_content > h2 {
-    color: #5b32b4;
+    color: #0c0b0c;
     font-size: 48px;
     margin-bottom: 30px;
 }
@@ -622,7 +624,7 @@ p {
 .app-download-btn.active a,
 .app-download-btn a:hover {
     border-color: transparent;
-    background-color: #fb397d;
+    background-color: #4cbb17;
 }
 
 .app-download-btn a i {
@@ -671,7 +673,7 @@ p {
 }
 
 .single-feature > i {
-    color: #fb397d;
+    color: #4cbb17;
     font-size: 30px;
     display: inline-block;
     float: left;
@@ -680,7 +682,7 @@ p {
 
 .single-feature > h5 {
     font-size: 22px;
-    color: #5b32b4;
+    color: #0c0b0c;
 }
 
 .single-feature > p {
@@ -719,7 +721,7 @@ p {
 .video-area .video-play-btn a {
     width: 80px;
     height: 80px;
-    background-color: #fb397d;
+    background-color: #4cbb17;
     color: #fff;
     text-align: center;
     display: block;
@@ -829,7 +831,7 @@ p {
 }
 
 .app-screenshots-area .owl-dot.active {
-    background-color: #fb397d;
+    background-color: #4cbb17;
     border: transparent;
 }
 
@@ -860,13 +862,13 @@ p {
 }
 
 .single-price-plan .package-plan > h5 {
-    color: #5b32b4;
+    color: #0c0b0c;
     font-size: 18px;
 }
 
 
 .single-price-plan .package-plan .ca-price h4 {
-    color: #fb397d;
+    color: #4cbb17;
     font-size: 48px;
     position: relative;
     z-index: 1;
@@ -876,7 +878,7 @@ p {
 
 .single-price-plan .package-plan .ca-price span {
     font-size: 18px;
-    color: #fb397d;
+    color: #4cbb17;
 }
 
 .single-price-plan .plan-button > a {
@@ -921,7 +923,7 @@ p {
 -------------------------- */
 
 .clients-feedback-area .client-name > h5 {
-    color: #5b32b4;
+    color: #0c0b0c;
     font-size: 22px;
     margin-top: 5px;
 }
@@ -972,8 +974,8 @@ p {
 }
 
 .clients-feedback-area .slick-dots li.slick-active button {
-    background-color: #fb397d;
-    border-color: #fb397d;
+    background-color: #4cbb17;
+    border-color: #4cbb17;
 }
 
 .clients-feedback-area .slick-slide.client-thumbnail {
@@ -1059,13 +1061,13 @@ p {
     display: inline-block;
     text-align: center;
     line-height: 45px;
-    color: #fb397d;
+    color: #4cbb17;
     font-weight: 500;
     border-radius: 23px 23px 23px 0;
 }
 
 .get-started-button > a:hover {
-    background: #5b32b4;
+    background: #0c0b0c;
     color: #fff;
     -webkit-transition-duration: 500ms;
     -o-transition-duration: 500ms;
@@ -1093,7 +1095,7 @@ p {
 
 .member-text > h4 {
     font-size: 22px;
-    color: #5b32b4;
+    color: #0c0b0c;
 }
 
 .member-text > p {
@@ -1170,7 +1172,7 @@ p {
 .address-text > p > span,
 .phone-text > p > span,
 .email-text > p > span {
-    color: #5b32b4;
+    color: #0c0b0c;
 }
 
 .footer-contact-area .line-shape {
@@ -1202,7 +1204,7 @@ p {
 }
 
 .btn.submit-btn {
-    background: #fb397d;
+    background: #4cbb17;
     height: 48px;
     min-width: 185px;
     color: #ffffff;
@@ -1211,7 +1213,7 @@ p {
 }
 
 .btn.submit-btn:hover {
-    background: #5b32b4;
+    background: #0c0b0c;
     color: #fff;
     -webkit-transition-duration: 500ms;
     -o-transition-duration: 500ms;
@@ -1231,7 +1233,7 @@ p {
 -------------------------- */
 
 .footer-text > h2 {
-    color: #5b32b4;
+    color: #0c0b0c;
     font-size: 72px;
     font-weight: 700;
 }
@@ -1249,7 +1251,7 @@ p {
 }
 
 .footer-social-icon > a > i:hover {
-    background: #fb397d;
+    background: #4cbb17;
     color: #fff;
     -webkit-transition-duration: 500ms;
     -o-transition-duration: 500ms;
@@ -1276,7 +1278,7 @@ p {
 }
 
 .footer-social-icon > a .active {
-    background: #fb397d;
+    background: #4cbb17;
 }
 
 .footer-menu ul li:last-child a {
