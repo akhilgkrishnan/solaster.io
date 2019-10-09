@@ -325,15 +325,29 @@
         </div>
         <div class="row">
             <script>
+                var temp = 1;
                 function changeImage(){
-	
-	            var theImage = document.getElementById("testimage");
-	            theImage.src = "/img/test/pic2.JPG";	
+                var theImage = document.getElementById("testimage");
+                if(temp==1){
+	                
+	                theImage.src = "/img/test/pic2.JPG";	
+                    temp = 2;
+                }    
+                else if(temp==2){
 
+                   
+	                theImage.src = "/img/test/pic3.JPG";	
+                    temp = 3;
+                }
+                else{
+                    temp = 1;
+                    
+	                theImage.src = "/img/test/pic.jpg";
+                }
                 }
             </script>
             
-            <div class="col-sm-6 col-md center">
+            <div class="jumbotron">
                 <img height="" src="img/test/pic.jpg" alt="hello" id="testimage" onclick="changeImage()">
                 
               
