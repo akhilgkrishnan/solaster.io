@@ -1174,7 +1174,7 @@ p {
 .phone-text > p,
 .email-text > p {
     font-size: 18px;
-    margin-bottom: 10px;
+    margin-bottom: 1px;
 }
 
 .address-text > p > span,
@@ -1188,11 +1188,11 @@ p {
 }
 
 .footer-contact-area .heading-text > p {
-    margin-top: 50px;
+    margin-top: 5px;
 }
 
 .footer-contact-area .heading-text {
-    margin-bottom: 50px;
+    margin-bottom: 5px;
 }
 
 #name {
@@ -1233,7 +1233,7 @@ p {
 }
 
 .footer-text > p {
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 
 /* --------------------------
