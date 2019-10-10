@@ -1314,6 +1314,9 @@ p {
       margin-left: 600px;
       margin: auto;
   }
+  .fusion >p{
+      color: floralwhite;
+  }
   .visual{
       
       width: 60%;
