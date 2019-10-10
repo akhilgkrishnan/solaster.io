@@ -1017,6 +1017,7 @@ p {
     height: 100px !important;
 }
 
+
 .clients-feedback-area .slick-arrow {
     position: absolute;
     width: 30px;
@@ -1308,4 +1309,8 @@ p {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+  }
+  .fusion{
+      margin-left: 600px;
+      margin: auto;
   }
